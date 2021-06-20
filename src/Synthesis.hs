@@ -21,7 +21,7 @@ toList x y = [x, y]
 toStereo :: [a] -> [[a]]
 toStereo items = zipWith toList items items
 
-forSeconds :: Float -> Float -> Float -> [Float]
+forSeconds :: Float -> a -> Float -> [a]
 forSeconds s v sr = replicate times v
   where
     samples = s * sr
