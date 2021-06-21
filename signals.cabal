@@ -27,6 +27,7 @@ library
   exposed-modules:
       Adsr
       Synthesis
+      Test
       Wave
   other-modules:
       Paths_signals
